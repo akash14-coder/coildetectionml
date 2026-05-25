@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large sweep/diagnostic CSV files (keep only key outputs)
+sweep_*.csv
+sweep_opt_*.csv
+sweep_opt_blend_*.csv
+pred_*.csv
+diag_*.csv
+binary_*.csv
+prediction_*.csv
+probabilistic_submission.csv
+expected_prediction*.csv
+expected_submission_binary.csv
+
+# CatBoost training logs
+catboost_info/
+
+# OS
+.DS_Store
+Thumbs.db
